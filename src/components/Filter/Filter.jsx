@@ -15,6 +15,7 @@ const Filter = ({ value, onChangeFilter }) => {
         name="filter"
         value={value}
         onChange={onChangeFilter}
+        autoComplete="off"
       />
     </Form>
   );
